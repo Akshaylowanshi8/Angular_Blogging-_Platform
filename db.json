@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+    "id": 1,
+    "username": "user1",
+    "password": "password1",
+    "email": "user1@example.com"
+    },
+    {
+    "id": 2,
+    "username": "user2",
+    "password": "password2",
+    "email": "user2@example.com"
+    }
+    ],
+   "blogPosts": [
+    {
+    "id": 1,
+    "userId": 1,
+    "title": "First Blog Post",
+    "content": "This is the content of the first blog post. Lorem ipsum dolor sit amet...",
+    "summary": "Summary of the first blog post.",
+    "comments": [
+    {
+    "id": 1,
+    "userId": 2,
+    "comment": "Great post! Thanks for sharing."
+    },
+    {
+    "id": 2,
+    "userId": 1,
+    "comment": "I'm glad you liked it!"
+    }
+    ]
+    },
+    {
+    "id": 2,
+    "userId": 2,
+    "title": "Second Blog Post",
+    "content": "This is the content of the second blog post. Ut enim ad minim veniam...",
+    "summary": "Summary of the second blog post.",
+    "comments": [
+    {
+    "id": 3,
+    "userId": 1,
+    "comment": "Interesting read."
+    }
+    ]
+    }
+    ]
+   }

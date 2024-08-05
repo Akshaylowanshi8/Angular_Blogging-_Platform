@@ -1,51 +1,113 @@
 {
   "users": [
     {
-    "id": 1,
-    "username": "user1",
-    "password": "password1",
-    "email": "user1@example.com"
+      "id": "1",
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@example.com"
     },
     {
-    "id": 2,
-    "username": "user2",
-    "password": "password2",
-    "email": "user2@example.com"
-    }
-    ],
-   "blogPosts": [
-    {
-    "id": 1,
-    "userId": 1,
-    "title": "First Blog Post",
-    "content": "This is the content of the first blog post. Lorem ipsum dolor sit amet...",
-    "summary": "Summary of the first blog post.",
-    "comments": [
-    {
-    "id": 1,
-    "userId": 2,
-    "comment": "Great post! Thanks for sharing."
+      "id": "2",
+      "username": "user2",
+      "password": "password2",
+      "email": "user2@example.com"
     },
     {
-    "id": 2,
-    "userId": 1,
-    "comment": "I'm glad you liked it!"
-    }
-    ]
+      "id": "0305",
+      "username": "Akshay",
+      "email": "Akshay@mail.com",
+      "password": "123"
     },
     {
-    "id": 2,
-    "userId": 2,
-    "title": "Second Blog Post",
-    "content": "This is the content of the second blog post. Ut enim ad minim veniam...",
-    "summary": "Summary of the second blog post.",
-    "comments": [
+      "id": "681f",
+      "username": "Akshay2",
+      "email": "Akshay2@gmail.com",
+      "password": "123"
+    },
     {
-    "id": 3,
-    "userId": 1,
-    "comment": "Interesting read."
+      "id": "9014",
+      "username": "Akshay",
+      "email": "Akshay@mail",
+      "password": "123"
+    },
+    {
+      "id": "adab",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "ee2d",
+      "username": "Akshay",
+      "email": "Akshay@gmail.com",
+      "password": "12345646556"
+    },
+    {
+      "id": "2b69",
+      "userId": "0305",
+      "summary": "2hvckj3 hcouffh2ofn2",
+      "title": "first blogg",
+      "content": "natural food ",
+      "comments": []
     }
-    ]
+  ],
+  "blogPosts": [
+    {
+      "id": "1",
+      "userId": 1,
+      "title": "First Blog Post",
+      "content": "This is the content of the first blog post. Lorem ipsum dolor sit amet...",
+      "summary": "Summary of the first blog post.",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 2,
+          "comment": "Great post! Thanks for sharing."
+        },
+        {
+          "id": 2,
+          "userId": 1,
+          "comment": "I'm glad you liked it!"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "title": "Second Blog Post",
+      "content": "This is the content of the second blog post. Ut enim ad minim veniam...",
+      "summary": "Summary of the second blog post.",
+      "comments": [
+        {
+          "id": 3,
+          "userId": 1,
+          "comment": "Interesting read."
+        }
+      ]
+    },
+    {
+      "id": "4a84",
+      "userId": "0305",
+      "summary": "ih3vj3boq",
+      "title": "wkjvbqojv",
+      "content": "f;3qjlfq3;",
+      "comments": []
+    },
+    {
+      "id": "eac3",
+      "userId": "0305",
+      "summary": "ih3vj3boq",
+      "title": "wkjvbqojv",
+      "content": "f;3qjlfq3;",
+      "comments": []
+    },
+    {
+      "id": "df64",
+      "userId": "0305",
+      "summary": "whkcv",
+      "title": "first blogg",
+      "content": "ajhvka",
+      "comments": []
     }
-    ]
-   }
+  ]
+}

@@ -1,9 +1,9 @@
 export interface Datas {
-        id: number;
+        id: string;
         username: string,
         password: string,
         email: string,
-        userId: number,
+        userId: string,
         title: string,
         content: string,
         summary: string,

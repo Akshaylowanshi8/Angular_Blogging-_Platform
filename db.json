@@ -229,7 +229,11 @@
       "summary": "Thousands of learner friendly videos (especially beginners)\nHandpicked, organized, and annotated by FluentU's experts\nIntegrated into courses for beginners",
       "title": "FluentU English Language and Culture Blog",
       "content": "What you are reading right now is a blog post from FluentU’s English Language and Culture Blog. This blog is updated regularly and filled with handy tips and great resources for learning English. It is written especially for English learners, so it is easy to understand.",
-      "comments": []
+      "comments": [ {
+        "id": 31,
+        "userId": 2421,
+        "comment": "good"
+      }]
     },
     {
       "id": "de0a",
@@ -245,7 +249,11 @@
       "summary": "Interactive subtitles: click any word to see detailed examples and explanations\nSlow down or loop the tricky parts\nShow or hide subtitles\nReview words with our powerful learning engine",
       "title": "English with a Twist",
       "content": "English with a Twist is a great English learning blog by Shanthi Cumaraswamy Streat. Her love for teaching English shines through (shows) in her informative and entertaining posts that cover many different topics.\n",
-      "comments": []
+      "comments": [ {
+        "id": 37,
+        "userId": 221,
+        "comment": "wow "
+      }]
     },
     {
       "id": "ff4a",
@@ -260,7 +268,11 @@
       "summary": "Each blog post is a paragraph with words written in bold font. Below each paragraph, you can listen to the post being read aloud. Each post includes a line that says “Read by: [the person’s name] (their accent),” so you know what type of English accent you will hear. Underneath the audio, you will see definitions of the bold words. ",
       "title": "Tiny Texts",
       "content": "Although this blog has not been updated recently, it has years of posts for you to read. They are so useful that they definitely deserve a place on the list. ",
-      "comments": [],
+      "comments": [ {
+        "id": 3,
+        "userId": 2421,
+        "comment": "good."
+      }],
       "id": "14aa"
     },
     {

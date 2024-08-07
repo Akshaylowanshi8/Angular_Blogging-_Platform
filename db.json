@@ -49,27 +49,147 @@
       "title": "first blogg",
       "content": "natural food ",
       "comments": []
+    },
+    {
+      "id": "cbe0",
+      "username": "Akshya4",
+      "email": "akshay4@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "d490",
+      "username": "sa cs;l';ps",
+      "email": "v ;aklv m",
+      "password": "bpebssb"
+    },
+    {
+      "id": "10a1",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "44b3",
+      "username": "dc",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "97e0",
+      "username": "Akshay09",
+      "email": "aksjs@gmail",
+      "password": "123vwhvpowhvw0"
+    },
+    {
+      "id": "ec2e",
+      "username": "alkcklkl",
+      "email": "akshay@gmail.com",
+      "password": "acm;a,cm;a,lc"
+    },
+    {
+      "id": "24e9",
+      "username": "wwww",
+      "email": "ewq@gmail",
+      "password": "gergerge"
+    },
+    {
+      "id": "f7ea",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "5136",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "273c",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "01f6",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "6b43",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "fd09",
+      "username": "ihvowhn",
+      "email": "fhlhjkf@gmail",
+      "password": "iavkljdsn"
+    },
+    {
+      "id": "9ee7",
+      "username": "kjblkjlkjnkjnlknk",
+      "email": "jblkjhnjkhnknkn@jhlkn",
+      "password": "gvj"
+    },
+    {
+      "id": "0879",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "932b",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "9cd8",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "49c1",
+      "username": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "37f9",
+      "username": "ihljknlkj",
+      "email": "ihokjh@gmail",
+      "password": "jnljk"
+    },
+    {
+      "id": "58ae",
+      "username": "gudqgduq",
+      "email": "qduqfduqd@gmail",
+      "password": "cwcddwd"
+    },
+    {
+      "id": "01f4",
+      "username": "Akshay12",
+      "email": "Akshay12@gmai.com",
+      "password": "123"
+    },
+    {
+      "id": "8ce8",
+      "username": "fwm;lfw",
+      "email": "wfwf@gmail.com",
+      "password": "123"
     }
   ],
   "blogPosts": [
     {
-      "id": "1",
-      "userId": 1,
+      "userId": "0305",
+      "summary": "Summary of the first blog post.",
       "title": "First Blog Post",
       "content": "This is the content of the first blog post. Lorem ipsum dolor sit amet...",
-      "summary": "Summary of the first blog post.",
-      "comments": [
-        {
-          "id": 1,
-          "userId": 2,
-          "comment": "Great post! Thanks for sharing."
-        },
-        {
-          "id": 2,
-          "userId": 1,
-          "comment": "I'm glad you liked it!"
-        }
-      ]
+      "id": "1"
     },
     {
       "id": "2",
@@ -80,33 +200,75 @@
       "comments": [
         {
           "id": 3,
-          "userId": 1,
+          "userId": 2421,
+          "comment": "good."
+        },
+        {
+          "id": 4,
+          "userId": 12,
           "comment": "Interesting read."
+        },
+        {
+          "id": 9,
+          "userId": 14,
+          "comment": "exilance."
         }
       ]
     },
     {
-      "id": "4a84",
-      "userId": "0305",
-      "summary": "ih3vj3boq",
-      "title": "wkjvbqojv",
-      "content": "f;3qjlfq3;",
+      "id": "3bbe",
+      "userId": "01f4",
+      "summary": "Each post is divided into bite-sized (small) chunks. This keeps the student from feeling overwhelmed. The blogs are divided into categories such as fluency tips, grammar, cultural reflections (thoughts), slang, swear words and lifestyle English. That means no matter which part of English you are struggling (having difficulty) with, you can find something here to help you practice.",
+      "title": "RealLife English",
+      "content": "There is something for everyone at RealLife English. It is suitable for beginner, intermediate and advanced English learners. ",
       "comments": []
     },
     {
-      "id": "eac3",
-      "userId": "0305",
-      "summary": "ih3vj3boq",
-      "title": "wkjvbqojv",
-      "content": "f;3qjlfq3;",
+      "id": "1e46",
+      "userId": "01f4",
+      "summary": "Thousands of learner friendly videos (especially beginners)\nHandpicked, organized, and annotated by FluentU's experts\nIntegrated into courses for beginners",
+      "title": "FluentU English Language and Culture Blog",
+      "content": "What you are reading right now is a blog post from FluentU’s English Language and Culture Blog. This blog is updated regularly and filled with handy tips and great resources for learning English. It is written especially for English learners, so it is easy to understand.",
       "comments": []
     },
     {
-      "id": "df64",
+      "id": "de0a",
+      "userId": "681f",
+      "summary": "Beginner and intermediate learners will make the most use of these blogs. However, they can also serve as excellent refreshers (review) for the advanced English language speaker.",
+      "title": "My English Teacher.eu Blog",
+      "content": "My English Teacher.eu has a rich mix of articles. It covers every aspect of the language, from grammar and pronunciation to idioms and the common mistakes to avoid. Some of the posts use high-quality graphics in an engaging (interesting) and entertaining way.  ",
+      "comments": []
+    },
+    {
+      "id": "0e91",
+      "userId": "681f",
+      "summary": "Interactive subtitles: click any word to see detailed examples and explanations\nSlow down or loop the tricky parts\nShow or hide subtitles\nReview words with our powerful learning engine",
+      "title": "English with a Twist",
+      "content": "English with a Twist is a great English learning blog by Shanthi Cumaraswamy Streat. Her love for teaching English shines through (shows) in her informative and entertaining posts that cover many different topics.\n",
+      "comments": []
+    },
+    {
+      "id": "ff4a",
+      "userId": "681f",
+      "summary": "The text is clear and concise (short and to the point) with highlighted keywords. It is suitable for beginner and intermediate learners.",
+      "title": " Espresso English Blog",
+      "content": "The lessons from Espresso English are a valuable addition to your repertoire (set) of learning tools. They are clearly presented, cover a broad (wide) range of topics and make good use of pictures. ",
+      "comments": []
+    },
+    {
       "userId": "0305",
-      "summary": "whkcv",
-      "title": "first blogg",
-      "content": "ajhvka",
+      "summary": "Each blog post is a paragraph with words written in bold font. Below each paragraph, you can listen to the post being read aloud. Each post includes a line that says “Read by: [the person’s name] (their accent),” so you know what type of English accent you will hear. Underneath the audio, you will see definitions of the bold words. ",
+      "title": "Tiny Texts",
+      "content": "Although this blog has not been updated recently, it has years of posts for you to read. They are so useful that they definitely deserve a place on the list. ",
+      "comments": [],
+      "id": "14aa"
+    },
+    {
+      "id": "a7ec",
+      "userId": "0305",
+      "summary": "FluentU builds you up, so you can build sentences on your own\nStart with multiple-choice questions and advance through sentence building to producing your own output\nGo from understanding to speaking in a natural progression.\n",
+      "title": "10 Blogs for Learning English [2024 Edition] | FluentU English",
+      "content": "If you are looking for blogs in English for more advanced learners, you can go through James Clear’s blog.  \n\nJames Clear is an entrepreneur, weightlifter and travel photographer. His posts offer concrete (solid, doable) advice on how to live better, make positive changes and create useful habits in your life. \n\nThe posts are very well-written, cite solid research (he cites his resources at the end of each post), are not too long and are easy to understand. ",
       "comments": []
     }
   ]

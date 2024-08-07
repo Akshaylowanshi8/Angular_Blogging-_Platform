@@ -23,7 +23,15 @@ export class BloggingService {
     .pipe(
       catchError(this.errorHandler)
     )}
-    
+
+    GetEditPost(id:any):Observable<any>{
+      console.log(this.url2+id);
+      return this.httpClient.get(this.url2+id )
+      .pipe(
+        catchError(this.errorHandler)
+      )}
+
+
   Registruser(user:Datas):Observable<any>{
  return this.httpClient.post(this.url , JSON.stringify(user) ,this.httpOptions)
  .pipe(catchError(this.errorHandler))
@@ -34,6 +42,15 @@ export class BloggingService {
     .pipe(
       catchError(this.errorHandler)
     )}
+
+
+    updatepost(id:number, post:Datas): Observable<any> {
+  
+      return this.httpClient.put(this.url2 + id, JSON.stringify(post), this.httpOptions)
+     .pipe( 
+        catchError(this.errorHandler)
+      )
+    }
 
     Addblogg(post:Datas):Observable<any>{
       console.log(post);
@@ -50,6 +67,7 @@ export class BloggingService {
       }
 
 
+      
 
 
   errorHandler(error:any) {

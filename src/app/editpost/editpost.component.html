@@ -1,6 +1,8 @@
 
+  
+
 <button
-  class="relative flex items-center m-4 px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-md group"
+  class="relative flex items-center m-4 px-6 py-3 h-4 overflow-hidden font-medium transition-all bg-indigo-500 rounded-md group"
 >
   <span
     class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-indigo-700 rounded group-hover:-mr-4 group-hover:-mt-4"
@@ -25,40 +27,42 @@
   >
 </button>
   <form [formGroup]="Addblogform" (ngSubmit)="Addfun()">
-    <div class="flex flex-col items-center justify-center  mx-auto lg:py-0">
+    <div class="flex flex-col items-center justify-center   w-[400px] lg:py-">
       <div class="w-full bg-white rounded-lg shadow border md:mt-0 sm:max-w-md xl:p-0">
         <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
           <p class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
-            Add your New blogg
+            Edit your blogg
             </p>
           
             <div>
-              <label class="block mb-2 text-sm font-medium text-gray-900">
+              <label class="block  mb-2 text-sm font-medium text-gray-900">
                 title
               </label>
-              <input required class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder="title" id="title" type="title" formControlName="title">
+              <input required class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder="title" id="title"  [(ngModel)]="postd.title" formControlName="title">
             </div>
             <div>
                 <label class="block mb-2 text-sm font-medium text-gray-900">
                 content
                 </label>
-                <textarea name=""class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"id=" content" formControlName="content" ></textarea>
+                <textarea   [(ngModel)]="postd.content" name=""class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"id=" content" formControlName="content" ></textarea>
                 </div>  
                    <div>
                      <label class="block mb-2 text-sm font-medium text-gray-900">
                        summary
                       </label>
-                     <textarea name="summary" placeholder="summary"  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"id="summary" formControlName="summary"></textarea>
+                     <textarea  [(ngModel)]='postd.summary' name="summary" placeholder="summary"  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" formControlName="summary" ></textarea>
+                     <!-- <div *ngIf="f['summary'].touched && f['summary'].invalid" class="text-red-700">
+                      <div *ngIf="f['summary'].errors && f['summary'].errors['required']">Title is required.</div>
+                  </div> -->
                     </div>
             <div class="flex items-start">
             </div>
 
-            <button class="w-full bg-blue-500 disabled:bg-red-900 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white" type="submit" [disabled]="!Addblogform.valid" >
+            <button class="w-full bg-blue-500 disabled:bg-red-900 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white" type="submit"   >
                 Add new blog 
             </button>
-    
+            
         </div> 
       </div>
     </div>
   </form>
-  

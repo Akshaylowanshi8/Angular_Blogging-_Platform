@@ -1,5 +1,5 @@
 export interface Datas {
-        id: string;
+        id:any;
         username: string,
         password: string,
         email: string,
@@ -7,6 +7,6 @@ export interface Datas {
         title: string,
         content: string,
         summary: string,
-        comments:string,
-    
-    }
+        comments:any,
+        comment:string,
+}

@@ -1,4 +1,4 @@
- <form [formGroup]="Registrform" (ngSubmit)="Regfun()">
+ <form [formGroup]="Registrform" (submit)="Regfun()" >
       <div class="flex flex-col items-center justify-center  mx-auto lg:py-0">
         <div class="w-full bg-white rounded-lg shadow border md:mt-0 sm:max-w-md xl:p-0">
           <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
@@ -8,13 +8,26 @@
                 <label class="block mb-2 text-sm font-medium text-gray-900">
                   Your username
                 </label>
+               
                 <input required placeholder="JohnDoe" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" id="username" type="text" formControlName="username">
+                <div class="text-red-500" *ngIf="Registrform.controls['username'].invalid && (Registrform.controls['username'].touched ||Registrform.controls['username'].dirty)">
+                  <span *ngIf="Registrform.controls['username'].errors?.['minLength']" >minLength is 6 char</span>
+                  <span *ngIf="Registrform.controls['username'].errors?.['required']" >this is required</span>
+
+                  
+                </div>
               </div>
               <div>
                 <label class="block mb-2 text-sm font-medium text-gray-900">
                   Email id
                 </label>
                 <input required class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder="Email" id="email" type="Email" formControlName="email">
+                 <div class="text-red-500" *ngIf="Registrform.controls['email'].invalid && (Registrform.controls['email'].touched ||Registrform.controls['email'].dirty)">
+
+                  <span   *ngIf="Registrform.controls['email'].errors?.['required'] " >this is required</span>
+                  <span   *ngIf="Registrform.controls['email'].errors?.['email'] " >email is  not valid</span>
+
+                </div>
               </div>
               <div>
                 <label class="block mb-2 text-sm font-medium text-gray-900">
@@ -22,15 +35,19 @@
                 </label>
                 <input required class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder="••••••••" id="password" type="password" formControlName="password">
               </div>
+              <div class="text-red-500" *ngIf="Registrform.controls['password'].invalid && (Registrform.controls['password'].touched ||Registrform.controls['password'].dirty  || isformvalid)">
+
+                <span   *ngIf="Registrform.controls['password'].errors?.['required'] " >this is required</span>
+              </div>
               <div class="flex items-start">
               </div>
 
-              <button class="w-full bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white" type="submit"[disabled]="!Registrform.valid" >
+              <button class="w-full bg-sky-900 disabled:bg-red-800 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white" type="submit"  [disabled]="!Registrform.valid">
                 Create an account
               </button>
              <p class="flex justify-center space-x-1">
         <span class="text-slate-700"> Have an account? </span>
-        <a class="text-blue-500 hover:underline" routerLink='/login'  >Sign Up</a>
+        <a class="text-blue-500 hover:underline" routerLink='/login' >Sign Up</a>
       </p>
           </div> 
         </div>

@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { FormControl, FormGroup, NgModel, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { BloggingService } from './../blogging.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-newblogg',
@@ -23,13 +24,14 @@ export class NewbloggComponent {
 
      const userid =localStorage.getItem("userId")
      console.log(userid);
+     
     this.Addblogform = new FormGroup(
     {
        userId:new FormControl(userid,Validators.required ), 
        summary:new FormControl("",Validators.required ),
        title:new FormControl("",Validators.required ) ,
        content:new FormControl("",Validators.required ) ,
-       comments:new FormControl([],Validators.required ) 
+       comments:new FormControl([], ) 
     }
   )
   }
@@ -38,7 +40,7 @@ export class NewbloggComponent {
 
     console.log(this.Addblogform.value);
     this.BloggingService.Addblogg(this.Addblogform.value).subscribe((res:any)=>{
-      alert("post create successfully!");
+      Swal.fire('Thank you...', 'post create  succesfully!', 'success')
       this.router.navigateByUrl("/desh")
     })
     }

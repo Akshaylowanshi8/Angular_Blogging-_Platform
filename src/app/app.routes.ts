@@ -5,6 +5,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { authGuard } from './services/auth.guard';
 import { NewbloggComponent } from './newblogg/newblogg.component';
+import { EditpostComponent } from './editpost/editpost.component';
 
 export const routes: Routes = [
     {path:"",
@@ -25,6 +26,8 @@ export const routes: Routes = [
     {
         path:"newblog",component:NewbloggComponent
     },
-
+{
+    path :"editpost/:id" ,component :EditpostComponent
+}
 ];
 
